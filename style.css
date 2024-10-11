@@ -13,3 +13,84 @@ Text Domain: rank-rent-child
 
 /* Add your custom styles below this line */
 
+
+/* Add your custom styles here */
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* New custom class for thicker border */
+.border-thick {
+    border-width: 3px !important;
+}
+
+/* Increase the base font size */
+:root {
+    font-size: 18px; /* Adjust this value as needed */
+}
+
+body {
+    /* Ensure the body inherits the root font size */
+    font-size: 1rem;
+}
+
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--cta-color);
+    transition: background-color 0.3s, filter 0.3s;
+}
+
+.btn-primary:hover {
+    filter: brightness(75%); /* Darken the color by 25% */
+}
+
+.secondary-bg {
+    background-color: var(--secondary-background);
+}
+
+.text-primary-color {
+    color: var(--primary-color);
+}
+
+/* Add styles for dropdown items */
+.dropdown-item:hover {
+    background-color: var(--primary-hover-color);
+    color: #fff; /* Ensure text is visible on the hover background */
+}
+
+/* Override Bootstrap's text-primary class */
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+/* Ensure primary buttons use our custom primary color */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: var(--primary-hover-color);
+    border-color: var(--primary-hover-color);
+}
+
+/* Override Bootstrap's border-success class to use primary color */
+.border-success {
+    --bs-border-opacity: 1;
+    border-color: var(--primary-color) !important;
+}
+
+/* If you want to support opacity, you can use the RGB values of the primary color */
+.border-success {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--primary-color-rgb), var(--bs-border-opacity)) !important;
+}
+
+/* Add a class for primary color bottom border */
+.border-bottom-primary {
+    border-bottom-color: var(--primary-color) !important;
+}
