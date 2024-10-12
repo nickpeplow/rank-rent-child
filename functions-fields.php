@@ -83,7 +83,7 @@ Word count: 210-220 characters.',
         ),
         'homepage_why' => array(
             'title' => 'homepage_why',
-            'instructions' => 'Have a think about what are the 4 most important things when looking for a local service provider in this niche. Consists of headings and related content that goes under each.',
+            'instructions' => 'Have a think about what are the 6 most important things when looking for a local service provider in this niche. Consists of headings and related content that goes under each.',
             'fields' => array(
                 array(
                     'name' => 'why_heading',
@@ -145,11 +145,29 @@ Word count: 210-220 characters.',
                     'scope' => 'page_specific',
                     'instructions' => '140-145 characters on the why_4_heading heading.',
                 ),
+                array(
+                    'name' => 'why_5_heading',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => 'heading for a section on why choose us. Niche specific.',
+                ),
+                array(
+                    'name' => 'why_5_content',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '140-145 characters on the why_5_heading heading.',
+                ),
+                array(
+                    'name' => 'why_6_heading',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => 'heading for a section on why choose us. Niche specific.',
+                ),
             ),
         ),
         'homepage_testimonials' => array(
             'title' => 'homepage_testimonials',
-            'instructions' => '',
+            'instructions' => 'Testimonial section for the homepage. All quotes should be a similar short length, approx 100 characters. Use a different writing style for each so they sound real and authentic. The name should be first name and initial (e.g. Nick P.)',
             'fields' => array(
                 array(
                     'name' => 'testimonial_1_quote',
@@ -198,6 +216,12 @@ Word count: 210-220 characters.',
                     'type' => 'text',
                     'scope' => 'page_specific',
                     'instructions' => '',
+                ),
+                array(
+                    'name' => 'why_6_content',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '40-145 characters on the why_6_heading heading.',
                 ),
             ),
         ),
