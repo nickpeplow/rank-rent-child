@@ -147,6 +147,60 @@ Word count: 210-220 characters.',
                 ),
             ),
         ),
+        'homepage_testimonials' => array(
+            'title' => 'homepage_testimonials',
+            'instructions' => '',
+            'fields' => array(
+                array(
+                    'name' => 'testimonial_1_quote',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+                array(
+                    'name' => 'testimonial_1_name',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+                array(
+                    'name' => 'testimonial_2_quote',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+                array(
+                    'name' => 'testimonial_2_name',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+                array(
+                    'name' => 'testimonial_3_quote',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+                array(
+                    'name' => 'testimonial_3_name',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+                array(
+                    'name' => 'testimonial_4_quote',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+                array(
+                    'name' => 'testimonial_4_name',
+                    'type' => 'text',
+                    'scope' => 'page_specific',
+                    'instructions' => '',
+                ),
+            ),
+        ),
     );
     return $fields;
 }
